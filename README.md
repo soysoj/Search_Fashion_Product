@@ -23,7 +23,7 @@
 ![image](https://github.com/user-attachments/assets/0eee0f30-a0f7-440b-9b80-2ebd25ebd012)
 ![image](https://github.com/user-attachments/assets/d9e5e747-5876-4924-9ca9-3abc03295f64)
 ![image](https://github.com/user-attachments/assets/eca2c1b1-69bb-48e7-b677-91a5212dc0f2)<br>
-* 총 5개 아이템씩 보여달라고 했기때문에 만약 아이템이 4개이하일 경우에는 다른 아이템들도 보여주는 것으로 보인다. 이는 차후에 이 부분에 대한 에러를 고쳐보려고합니다.
+* 총 5개 아이템씩 보여달라고 했기때문에 만약 아이템이 4개이하일 경우에는 다른 아이템들도 보여주는 것으로 보입니다. 이는 차후에 이 부분에 대한 에러를 고쳐보려고합니다.
   * app folder안 data folder에는 image_embedding.npy와 text_embedding.npy 파일들이 있는데 용량이 커서 upload를 시키지 못 했습니다. 따라서 밑의 링크를 들어가시면 image_embedding.npy와 txt_embedding.npy를 다운받아 사용하실 수 있습니다.<br>
     [임베딩 파일 다운받기(Download npy embedding files)](https://drive.google.com/drive/folders/1ouMI7tMUchOapLHx-O_YYgoaTZaeZATd?usp=drive_link)
 
