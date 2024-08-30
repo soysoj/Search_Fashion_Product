@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Engine</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Search Fasion Product</h1>
+    <form action="/" method="post">
+        <input type="text" name="query" placeholder="Enter your search text">
+        <button type="submit">Search</button>
+    </form>
+    {% if results %}
+        <h2>Search Results</h2>
+        <ul>
+            {% for result, image in zip(results, images) %}
+                <li>
+                    <p>ID: {{ result.id }}, Distance: {{ result.distance }}</p>
+                    <img src="data:image/png;base64,{{ image }}" alt="Result Image">
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
+
