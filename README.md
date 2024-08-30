@@ -5,7 +5,7 @@
 * Model: CLIP
 * Vector Databases: FAISS
 * Fashion Product Image 데이터셋에서 image와 text를 뽑아내 임베딩을 생성하고 유사도를 계산하였습니다. 그리고 FAISS를 이용하여 검색 인덱스를 구축했습니다. <br>
-![image](https://github.com/user-attachments/assets/f34bbbbc-0dcf-4c59-8645-854e5ffa0168)<br>
+
 
 * quesry에 pink t-shir, purple shoes, blue long pants, pink blouse 등을 검색하면 아래와 같은 이미지들이 출력됐습니다.<br>
 ![image](https://github.com/user-attachments/assets/134e4a56-7735-4323-adba-1a4d8a19b7bf)
@@ -17,6 +17,7 @@
 ### main.py + app folder + static folder
 * 위의 jupyter notebook을 바탕으로 Fast API를 사용하여 웹 프레임 워크를 만들었습니다.
 * 위와 마찬가지로 똑같은 방식으로 Fast API와 HTML, CSS를 이용해 패션 아이템 검색창을 만들었습니다.
+![image](https://github.com/user-attachments/assets/f34bbbbc-0dcf-4c59-8645-854e5ffa0168)<br>
 *  text 창에 pink t-shirt, purple shoes, blue long pants, watch 등을 검색했을때 아래와 같은 결과를 볼 수 있었습니다.<br>
 ![image](https://github.com/user-attachments/assets/a7674704-f102-4c29-8375-fce974d5ad16)
 ![image](https://github.com/user-attachments/assets/0eee0f30-a0f7-440b-9b80-2ebd25ebd012)
